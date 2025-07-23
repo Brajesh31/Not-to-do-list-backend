@@ -1,0 +1,27 @@
+GET http://localhost:3001
+
+###
+GET http://localhost:3001/api/v1/tasks
+
+###
+GET http://localhost:3001/api/v1/tasks/686b43dbdebd4ae0147c1df5
+
+###
+GET http://localhost:3001/api/v1/tasks?type=bad
+
+###
+POST http://localhost:3001/api/v1/tasks
+Content-Type: application/json
+
+{ "task": "TASK 8", "hour": 45, "type": "good" }
+
+###
+PATCH http://localhost:3001/api/v1/tasks/687dfe171ab2ea15210d0ab4
+Content-Type: application/json
+
+{
+    "type": "bad"
+}
+
+###
+DELETE  http://localhost:3001/api/v1/tasks/687dfe171ab2ea15210d0ab4

@@ -1,0 +1,9 @@
+[
+  { "id": 1, "task": "TASK 1", "hour": 10, "type": "good" },
+  { "id": 2, "task": "TASK 2", "hour": 20, "type": "bad" },
+  { "id": 3, "task": "TASK 3", "hour": 30, "type": "good" },
+  { "id": 4, "task": "TASK 4", "hour": 40, "type": "bad" },
+  { "id": 5, "task": "TASK 5", "hour": 25, "type": "good" },
+  { "id": 6, "task": "TASK 6", "hour": 10, "type": "bad" },
+  { "id": 7, "task": "TASK 7", "hour": 25, "type": "bad" }
+]
